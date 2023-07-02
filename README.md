@@ -21,8 +21,9 @@ Phoenix Live View Search Functionality
 
 ## Screenshots
 
+![Screenshot 2023-07-02 at 13 59 57](https://github.com/MICHAELMUNAVU83/phoenix_liveview_search/assets/86654131/0d3e6141-5df4-4cdc-aee0-107e8091314f)
 
-<img width="1440" alt="Screenshot 2023-06-05 at 07 45 05" src="https://github.com/MICHAELMUNAVU83/art_store/assets/86654131/3b8a3c8f-5979-4375-a409-d66e69845ab1">
+
 
 
 
