@@ -21,6 +21,11 @@ defmodule PhoenixLiveviewSearch.Products do
     Repo.all(Product)
   end
 
+  def get_search_results(search) do
+    query = from p in Product, where: fragment("? LIKE ?", p.name, ^"%#{search}%")
+    Repo.all(query)
+  end
+
   @doc """
   Gets a single product.
 

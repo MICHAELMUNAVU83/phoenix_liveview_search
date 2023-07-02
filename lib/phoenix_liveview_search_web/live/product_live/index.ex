@@ -44,11 +44,11 @@ defmodule PhoenixLiveviewSearchWeb.ProductLive.Index do
   end
 
   def handle_event("search", %{"product" => product_params}, socket) do
-    IO.inspect(product_params["search"])
+   
 
     {:noreply,
      socket
-     |> put_flash(:info, "Searching")}
+     |> assign(:products, Products.get_search_results(product_params["search"]))}
   end
 
   defp list_products do
