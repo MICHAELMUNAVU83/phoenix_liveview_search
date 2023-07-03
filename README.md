@@ -17,7 +17,7 @@ Phoenix Live View Search Functionality
  This is a project that shows how to impliment search functionality in Phoenix Live View .
 
  It is a pre-requisite for  Artile I wrote on Medium .
- [Library Management System in Phoenix](https://medium.com/@michaelmunavu83/uploading-images-in-phoenix-live-view-459b481a8385)
+ [Library Management System in Phoenix](https://medium.com/@michaelmunavu83/enhancing-user-experience-with-live-search-feature-using-phoenix-live-view-and-elixir-41b215874f62)
 
 ## Screenshots
 
