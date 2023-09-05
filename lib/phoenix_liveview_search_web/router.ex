@@ -17,7 +17,6 @@ defmodule PhoenixLiveviewSearchWeb.Router do
   scope "/", PhoenixLiveviewSearchWeb do
     pipe_through :browser
 
-   
     live "/", ProductLive.Index, :index
     live "/products/new", ProductLive.Index, :new
     live "/products/:id/edit", ProductLive.Index, :edit
@@ -27,9 +26,10 @@ defmodule PhoenixLiveviewSearchWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", PhoenixLiveviewSearchWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", PhoenixLiveviewSearchWeb do
+    pipe_through :api
+    resources "/cards", CardController, except: [:new, :edit]
+  end
 
   # Enables LiveDashboard only for development
   #
